@@ -100,7 +100,7 @@ class Configuration
      *
      * @var string
      */
-    protected $host = 'https://api-staging.vip2phone.net/v0';
+    protected $host = 'https://api.vip2phone.net/v0';
 
     /**
      * Timeout (second) of the HTTP request, by default set to 0, no timeout
