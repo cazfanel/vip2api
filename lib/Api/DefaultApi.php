@@ -71,7 +71,7 @@ class DefaultApi
     {
         if ($apiClient == null) {
             $apiClient = new ApiClient();
-            $apiClient->getConfig()->setHost('https://api-staging.vip2phone.net/v0');
+            $apiClient->getConfig()->setHost('https://api.vip2phone.net/v0');
         }
 
         $this->apiClient = $apiClient;
